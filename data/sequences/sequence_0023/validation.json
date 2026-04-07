@@ -1,0 +1,8 @@
+{
+  "final_label": "VALID",
+  "violations": [],
+  "violation_count": 0,
+  "ground_truth_label": "INVALID",
+  "correct_prediction": false,
+  "rules_fired": []
+}

@@ -1,0 +1,1702 @@
+[
+  {
+    "sequence_id": "sequence_0000",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      8.47,
+      16.94,
+      25.42,
+      33.89,
+      42.36,
+      50.83
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0001",
+    "shape": "square",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      8.5,
+      16.99,
+      25.49,
+      33.98,
+      42.48,
+      50.98
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0002",
+    "shape": "triangle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0003",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      8.66,
+      17.32,
+      25.98,
+      34.64,
+      43.3,
+      51.96
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0004",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      14.01,
+      27.11,
+      40.22,
+      53.32,
+      66.42,
+      79.53,
+      92.63
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0005",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      1.82,
+      14.92,
+      28.01,
+      41.11,
+      54.21,
+      67.31,
+      80.4
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0006",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0007",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0008",
+    "shape": "square",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      11.75,
+      23.51,
+      35.26,
+      47.02,
+      58.77,
+      70.52
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0009",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      9.75,
+      19.5,
+      29.25,
+      38.99,
+      48.74,
+      58.49
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0010",
+    "shape": "square",
+    "transformation": "angle_jump",
+    "angles": [
+      0.0,
+      9.16,
+      18.33,
+      27.49,
+      36.66,
+      165.54,
+      174.7
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0011",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      27.07,
+      36.23,
+      45.38,
+      54.53,
+      63.68,
+      72.84,
+      81.99
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0012",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      9.86,
+      19.71,
+      29.57,
+      39.43,
+      49.28,
+      59.14
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0013",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      20.9,
+      34.01,
+      47.12,
+      60.24,
+      73.35,
+      86.47,
+      99.58
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0014",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      4.64,
+      14.72,
+      24.8,
+      34.87,
+      44.95,
+      55.03,
+      65.11
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0015",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0016",
+    "shape": "triangle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0017",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      8.4,
+      16.8,
+      25.2,
+      33.6,
+      42.0,
+      50.4
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0018",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      9.1,
+      18.2,
+      27.31,
+      36.41,
+      45.51,
+      54.61
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0019",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      12.05,
+      0.0,
+      -12.05,
+      -24.1,
+      -36.16,
+      -48.21
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0020",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      12.6,
+      25.2,
+      37.8,
+      50.41,
+      63.01,
+      75.61
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0021",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      28.04,
+      37.47,
+      46.9,
+      56.33,
+      65.76,
+      75.19,
+      84.62
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0022",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      7.16,
+      17.93,
+      28.7,
+      39.47,
+      50.24,
+      61.01,
+      71.78
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0023",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      11.2,
+      22.4,
+      33.6,
+      44.8,
+      56.0,
+      67.2
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0024",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      18.63,
+      30.58,
+      42.52,
+      54.46,
+      66.4,
+      78.34,
+      90.28
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0025",
+    "shape": "circle",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      8.51,
+      17.03,
+      8.51,
+      0.0,
+      -8.51,
+      -17.03
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0026",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      9.86,
+      19.71,
+      29.57,
+      39.43,
+      49.28,
+      59.14
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0027",
+    "shape": "triangle",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      8.05,
+      16.11,
+      24.16,
+      16.11,
+      8.05,
+      0.0
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0028",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0029",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      7.93,
+      22.16,
+      36.39,
+      50.62,
+      64.85,
+      79.07,
+      93.3
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0030",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      8.17,
+      20.4,
+      32.64,
+      44.87,
+      57.11,
+      69.34,
+      81.57
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0031",
+    "shape": "square",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      9.43,
+      18.85,
+      28.28,
+      37.7,
+      47.13,
+      56.55
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0032",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0033",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0034",
+    "shape": "circle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      12.46,
+      24.92,
+      37.38,
+      49.84,
+      62.3,
+      74.76
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0035",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      25.04,
+      37.12,
+      49.19,
+      61.27,
+      73.35,
+      85.43,
+      97.5
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0036",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0037",
+    "shape": "triangle",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      8.89,
+      17.78,
+      26.68,
+      35.57,
+      44.46,
+      53.35
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0038",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      9.47,
+      18.94,
+      9.47,
+      0.0,
+      -9.47,
+      -18.94
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0039",
+    "shape": "circle",
+    "transformation": "angle_jump",
+    "angles": [
+      0.0,
+      10.48,
+      20.95,
+      31.43,
+      41.9,
+      200.33,
+      210.81
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0040",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      27.77,
+      37.43,
+      47.09,
+      56.74,
+      66.4,
+      76.06,
+      85.72
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0041",
+    "shape": "circle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      14.83,
+      29.67,
+      44.5,
+      59.33,
+      74.17,
+      89.0
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0042",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      9.87,
+      0.0,
+      -9.87,
+      -19.74,
+      -29.6,
+      -39.47
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0043",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      26.17,
+      40.18,
+      54.19,
+      68.2,
+      82.21,
+      96.22,
+      110.23
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0044",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0045",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      24.5,
+      35.72,
+      46.94,
+      58.16,
+      69.39,
+      80.61,
+      91.83
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0046",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      24.62,
+      38.72,
+      52.81,
+      66.91,
+      81.01,
+      95.11,
+      109.21
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0047",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      0.71,
+      10.06,
+      19.41,
+      28.77,
+      38.12,
+      47.47,
+      56.82
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0048",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      9.95,
+      19.9,
+      29.85,
+      39.8,
+      49.75,
+      59.7
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0049",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      10.46,
+      20.92,
+      31.37,
+      41.83,
+      31.37,
+      20.92
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0050",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      9.93,
+      18.13,
+      26.32,
+      34.51,
+      42.71,
+      50.9,
+      59.09
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0051",
+    "shape": "square",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      9.25,
+      18.5,
+      27.75,
+      37.0,
+      46.25,
+      55.5
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0052",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      26.99,
+      36.32,
+      45.65,
+      54.98,
+      64.31,
+      73.64,
+      82.97
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0053",
+    "shape": "circle",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      12.96,
+      0.0,
+      -12.96,
+      -25.92,
+      -38.88,
+      -51.85
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0054",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      14.48,
+      28.96,
+      43.44,
+      57.92,
+      72.4,
+      86.87
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0055",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      12.64,
+      0.0,
+      -12.64,
+      -25.29,
+      -37.93,
+      -50.57
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0056",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      11.55,
+      23.1,
+      34.65,
+      46.2,
+      34.65,
+      23.1
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0057",
+    "shape": "square",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      12.88,
+      25.76,
+      38.64,
+      51.52,
+      64.4,
+      77.28
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0058",
+    "shape": "square",
+    "transformation": "angle_jump",
+    "angles": [
+      0.0,
+      10.94,
+      21.89,
+      32.83,
+      43.77,
+      184.41,
+      195.35
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0059",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      18.47,
+      28.57,
+      38.68,
+      48.79,
+      58.89,
+      69.0,
+      79.11
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0060",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      10.01,
+      20.02,
+      30.03,
+      40.03,
+      50.04,
+      60.05
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0061",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0062",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      13.25,
+      25.98,
+      38.71,
+      51.44,
+      64.17,
+      76.9,
+      89.63
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0063",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      14.2,
+      28.5,
+      42.81,
+      57.12,
+      71.43,
+      85.74,
+      100.05
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0064",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0065",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      8.51,
+      21.16,
+      33.81,
+      46.45,
+      59.1,
+      71.75,
+      84.4
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0066",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      8.65,
+      17.31,
+      8.65,
+      0.0,
+      -8.65,
+      -17.31
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0067",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0068",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      13.65,
+      27.29,
+      13.65,
+      0.0,
+      -13.65,
+      -27.29
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0069",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0070",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      7.35,
+      18.67,
+      30.0,
+      41.32,
+      52.65,
+      63.98,
+      75.3
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0071",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      10.9,
+      21.8,
+      32.7,
+      43.6,
+      54.51,
+      65.41
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0072",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      13.03,
+      26.06,
+      39.09,
+      52.11,
+      65.14,
+      78.17
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0073",
+    "shape": "square",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      12.59,
+      25.18,
+      37.78,
+      50.37,
+      62.96,
+      75.55
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0074",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      24.12,
+      36.99,
+      49.87,
+      62.74,
+      75.61,
+      88.48,
+      101.35
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0075",
+    "shape": "triangle",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      8.35,
+      16.7,
+      25.05,
+      33.41,
+      41.76,
+      50.11
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0076",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      13.69,
+      27.3,
+      40.91,
+      54.52,
+      68.13,
+      81.74,
+      95.35
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0077",
+    "shape": "triangle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0078",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      14.65,
+      29.3,
+      43.95,
+      58.6,
+      73.25,
+      87.9
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0079",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "angles": [
+      0.0,
+      10.99,
+      21.97,
+      32.96,
+      43.95,
+      54.94,
+      65.92
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0080",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      14.54,
+      24.21,
+      33.89,
+      43.56,
+      53.24,
+      62.91,
+      72.59
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0081",
+    "shape": "triangle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      12.99,
+      25.99,
+      38.98,
+      51.98,
+      64.97,
+      77.97
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0082",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0083",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      9.62,
+      19.24,
+      28.86,
+      38.48,
+      48.09,
+      57.71
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0084",
+    "shape": "circle",
+    "transformation": "angle_jump",
+    "angles": [
+      0.0,
+      10.9,
+      21.81,
+      32.71,
+      165.27,
+      176.17,
+      187.08
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0085",
+    "shape": "triangle",
+    "transformation": "frame_discontinuity",
+    "angles": [
+      0.0,
+      8.44,
+      16.87,
+      25.31,
+      33.74,
+      42.18,
+      50.62
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0086",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      25.7,
+      39.06,
+      52.42,
+      65.78,
+      79.14,
+      92.5,
+      105.86
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0087",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      14.31,
+      28.91,
+      43.51,
+      58.11,
+      72.71,
+      87.31,
+      101.9
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0088",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0089",
+    "shape": "triangle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      11.77,
+      23.54,
+      35.3,
+      47.07,
+      58.84,
+      70.61
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0090",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      11.42,
+      22.84,
+      34.25,
+      22.84,
+      11.42,
+      -0.0
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0091",
+    "shape": "triangle",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      11.4,
+      22.8,
+      34.2,
+      45.6,
+      34.2,
+      22.8
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0092",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      20.07,
+      33.65,
+      47.24,
+      60.83,
+      74.41,
+      88.0,
+      101.59
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0093",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      14.44,
+      28.87,
+      43.31,
+      57.75,
+      72.18,
+      86.62
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0094",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "angles": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0095",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      17.76,
+      30.4,
+      43.04,
+      55.68,
+      68.32,
+      80.96,
+      93.6
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0096",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "angles": [
+      19.28,
+      28.23,
+      37.18,
+      46.13,
+      55.08,
+      64.03,
+      72.98
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0097",
+    "shape": "triangle",
+    "transformation": "shape_morph",
+    "angles": [
+      0.0,
+      8.35,
+      16.7,
+      25.06,
+      33.41,
+      41.76,
+      50.11
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0098",
+    "shape": "square",
+    "transformation": "smooth_rotation",
+    "angles": [
+      10.13,
+      24.28,
+      38.44,
+      52.6,
+      66.75,
+      80.91,
+      95.07
+    ],
+    "label": "VALID",
+    "num_frames": 7,
+    "seed": 42
+  },
+  {
+    "sequence_id": "sequence_0099",
+    "shape": "square",
+    "transformation": "axis_change",
+    "angles": [
+      0.0,
+      13.26,
+      26.53,
+      39.79,
+      53.06,
+      39.79,
+      26.53
+    ],
+    "label": "INVALID",
+    "num_frames": 7,
+    "seed": 42
+  }
+]

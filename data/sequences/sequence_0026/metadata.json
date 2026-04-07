@@ -1,0 +1,16 @@
+{
+  "shape": "triangle",
+  "transformation": "distortion",
+  "angles": [
+    0.0,
+    9.86,
+    19.71,
+    29.57,
+    39.43,
+    49.28,
+    59.14
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

@@ -1,0 +1,29 @@
+{
+  "seq_id": "sequence_0028",
+  "final_label": "VALID",
+  "violations": [],
+  "retrieved_rules": [
+    {
+      "id": 14,
+      "category": "temporal",
+      "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+      "related_violation": "frame_completeness",
+      "score": 0.4372
+    },
+    {
+      "id": 18,
+      "category": "general",
+      "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+      "related_violation": "general",
+      "score": 0.3989
+    },
+    {
+      "id": 9,
+      "category": "temporal",
+      "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+      "related_violation": "temporal_gap",
+      "score": 0.3698
+    }
+  ],
+  "context": "DETECTED VIOLATIONS:\n  None\n\nRELEVANT PHYSICS RULES:\n  [1] A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.  (category: temporal, similarity: 0.437)\n  [2] Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.  (category: general, similarity: 0.399)\n  [3] Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.  (category: temporal, similarity: 0.370)"
+}

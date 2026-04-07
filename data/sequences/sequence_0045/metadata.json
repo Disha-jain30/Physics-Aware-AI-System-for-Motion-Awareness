@@ -1,0 +1,16 @@
+{
+  "shape": "square",
+  "transformation": "smooth_rotation",
+  "angles": [
+    24.5,
+    35.72,
+    46.94,
+    58.16,
+    69.39,
+    80.61,
+    91.83
+  ],
+  "label": "VALID",
+  "num_frames": 7,
+  "seed": 42
+}

@@ -1,0 +1,16 @@
+{
+  "shape": "circle",
+  "transformation": "uniform_speed",
+  "angles": [
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0
+  ],
+  "label": "VALID",
+  "num_frames": 7,
+  "seed": 42
+}

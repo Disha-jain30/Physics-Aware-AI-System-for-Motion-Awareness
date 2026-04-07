@@ -1,0 +1,16 @@
+{
+  "shape": "square",
+  "transformation": "axis_change",
+  "angles": [
+    0.0,
+    13.65,
+    27.29,
+    13.65,
+    0.0,
+    -13.65,
+    -27.29
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

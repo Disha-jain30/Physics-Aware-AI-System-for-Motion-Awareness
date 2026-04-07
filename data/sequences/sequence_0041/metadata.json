@@ -1,0 +1,16 @@
+{
+  "shape": "circle",
+  "transformation": "distortion",
+  "angles": [
+    0.0,
+    14.83,
+    29.67,
+    44.5,
+    59.33,
+    74.17,
+    89.0
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

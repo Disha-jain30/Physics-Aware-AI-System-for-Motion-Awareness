@@ -1,0 +1,16 @@
+{
+  "shape": "square",
+  "transformation": "frame_discontinuity",
+  "angles": [
+    0.0,
+    13.03,
+    26.06,
+    39.09,
+    52.11,
+    65.14,
+    78.17
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

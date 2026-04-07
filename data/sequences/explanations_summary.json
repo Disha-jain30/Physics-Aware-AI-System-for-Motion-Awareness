@@ -1,0 +1,594 @@
+[
+  {
+    "seq_id": "sequence_0000",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0001",
+    "shape": "square",
+    "transformation": "distortion",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0002",
+    "shape": "triangle",
+    "transformation": "uniform_speed",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0003",
+    "shape": "square",
+    "transformation": "frame_discontinuity",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0004",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0005",
+    "shape": "circle",
+    "transformation": "smooth_rotation",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0006",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0007",
+    "shape": "square",
+    "transformation": "uniform_speed",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0008",
+    "shape": "square",
+    "transformation": "shape_morph",
+    "status": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ],
+    "retrieved_rules": [
+      {
+        "rule": "Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.",
+        "category": "geometry",
+        "score": 0.5849
+      },
+      {
+        "rule": "Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.",
+        "category": "geometry",
+        "score": 0.5427
+      },
+      {
+        "rule": "A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.",
+        "category": "general",
+        "score": 0.4548
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been flagged as physically invalid by the rule engine. One or more detected violations \u2014 such as a sudden angle jump, shape inconsistency, or temporal discontinuity \u2014 contradict the principles of rigid-body motion. A physically valid sequence requires smooth, continuous rotation with shape preservation and no abrupt directional changes.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0009",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0010",
+    "shape": "square",
+    "transformation": "angle_jump",
+    "status": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 5,
+    "violations": [
+      "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=128.88\u00b0]",
+      "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=128.88\u00b0 > threshold=50.0\u00b0]",
+      "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=29.1167\u00b0]",
+      "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=44.6155 > limit=25.0]",
+      "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=47.892\u00b0 > threshold=20.0\u00b0]"
+    ],
+    "retrieved_rules": [
+      {
+        "rule": "Smooth motion requires gradual and consistent angle changes between frames. Sudden large increments violate physical continuity.",
+        "category": "motion",
+        "score": 0.7012
+      },
+      {
+        "rule": "A sudden angle jump greater than 50 degrees between two consecutive frames indicates an unrealistic discontinuity in rotation.",
+        "category": "motion",
+        "score": 0.6778
+      },
+      {
+        "rule": "High angular acceleration between frames without a physical cause is a sign of synthetic generation error. Natural motion follows smooth acceleration profiles.",
+        "category": "physics",
+        "score": 0.6572
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been flagged as physically invalid by the rule engine. One or more detected violations \u2014 such as a sudden angle jump, shape inconsistency, or temporal discontinuity \u2014 contradict the principles of rigid-body motion. A physically valid sequence requires smooth, continuous rotation with shape preservation and no abrupt directional changes.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0011",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0012",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "status": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ],
+    "retrieved_rules": [
+      {
+        "rule": "Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.",
+        "category": "geometry",
+        "score": 0.5849
+      },
+      {
+        "rule": "Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.",
+        "category": "geometry",
+        "score": 0.5427
+      },
+      {
+        "rule": "A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.",
+        "category": "general",
+        "score": 0.4548
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been flagged as physically invalid by the rule engine. One or more detected violations \u2014 such as a sudden angle jump, shape inconsistency, or temporal discontinuity \u2014 contradict the principles of rigid-body motion. A physically valid sequence requires smooth, continuous rotation with shape preservation and no abrupt directional changes.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0013",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0014",
+    "shape": "triangle",
+    "transformation": "smooth_rotation",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0015",
+    "shape": "circle",
+    "transformation": "uniform_speed",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0016",
+    "shape": "triangle",
+    "transformation": "uniform_speed",
+    "status": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0017",
+    "shape": "circle",
+    "transformation": "shape_morph",
+    "status": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ],
+    "retrieved_rules": [
+      {
+        "rule": "Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.",
+        "category": "geometry",
+        "score": 0.5849
+      },
+      {
+        "rule": "Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.",
+        "category": "geometry",
+        "score": 0.5427
+      },
+      {
+        "rule": "A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.",
+        "category": "general",
+        "score": 0.4548
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been flagged as physically invalid by the rule engine. One or more detected violations \u2014 such as a sudden angle jump, shape inconsistency, or temporal discontinuity \u2014 contradict the principles of rigid-body motion. A physically valid sequence requires smooth, continuous rotation with shape preservation and no abrupt directional changes.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0018",
+    "shape": "triangle",
+    "transformation": "distortion",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  },
+  {
+    "seq_id": "sequence_0019",
+    "shape": "square",
+    "transformation": "axis_change",
+    "status": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": [],
+    "retrieved_rules": [
+      {
+        "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+        "category": "temporal",
+        "score": 0.4372
+      },
+      {
+        "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+        "category": "general",
+        "score": 0.3989
+      },
+      {
+        "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+        "category": "temporal",
+        "score": 0.3698
+      }
+    ],
+    "explanation": "[FALLBACK \u2014 LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been validated as physically consistent. The rotation is smooth, the shape is preserved across all frames, and the angular velocity remains uniform \u2014 all consistent with real-world rigid-body dynamics.",
+    "llm_model": "gpt-3.5-turbo"
+  }
+]

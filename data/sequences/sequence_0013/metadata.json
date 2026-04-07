@@ -1,0 +1,16 @@
+{
+  "shape": "triangle",
+  "transformation": "smooth_rotation",
+  "angles": [
+    20.9,
+    34.01,
+    47.12,
+    60.24,
+    73.35,
+    86.47,
+    99.58
+  ],
+  "label": "VALID",
+  "num_frames": 7,
+  "seed": 42
+}

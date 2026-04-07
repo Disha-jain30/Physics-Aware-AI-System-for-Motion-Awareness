@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "category": "motion",
+    "rule": "Smooth motion requires gradual and consistent angle changes between frames. Sudden large increments violate physical continuity.",
+    "related_violation": "smooth_motion"
+  },
+  {
+    "id": 2,
+    "category": "motion",
+    "rule": "In physically valid sequences, the angular velocity between consecutive frames should remain approximately constant.",
+    "related_violation": "smooth_motion"
+  },
+  {
+    "id": 3,
+    "category": "motion",
+    "rule": "A sudden angle jump greater than 50 degrees between two consecutive frames indicates an unrealistic discontinuity in rotation.",
+    "related_violation": "angle_jump"
+  },
+  {
+    "id": 4,
+    "category": "motion",
+    "rule": "Real-world rigid body rotation follows smooth trajectories. Abrupt angle changes beyond physical limits are signs of generated or synthetic artifacts.",
+    "related_violation": "angle_jump"
+  },
+  {
+    "id": 5,
+    "category": "geometry",
+    "rule": "A physically valid transformation preserves the geometric identity of the object. Circles must remain circles; squares must remain squares throughout the sequence.",
+    "related_violation": "shape_consistency"
+  },
+  {
+    "id": 6,
+    "category": "geometry",
+    "rule": "Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.",
+    "related_violation": "shape_consistency"
+  },
+  {
+    "id": 7,
+    "category": "geometry",
+    "rule": "Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.",
+    "related_violation": "shape_consistency"
+  },
+  {
+    "id": 8,
+    "category": "temporal",
+    "rule": "Frames in a valid sequence must form a continuous temporal chain with no missing or corrupted intermediate states.",
+    "related_violation": "temporal_gap"
+  },
+  {
+    "id": 9,
+    "category": "temporal",
+    "rule": "Frame discontinuity, where one or more frames appear as noise or completely different content, is a hallmark of AI-generated motion errors.",
+    "related_violation": "temporal_gap"
+  },
+  {
+    "id": 10,
+    "category": "motion",
+    "rule": "Uniform rotational motion maintains a constant angular increment. High variance in frame-to-frame angle differences indicates non-uniform and potentially invalid motion.",
+    "related_violation": "uniform_speed"
+  },
+  {
+    "id": 11,
+    "category": "motion",
+    "rule": "In the absence of external torque, a rotating rigid body maintains constant angular velocity. Irregular speed changes break this physical law.",
+    "related_violation": "uniform_speed"
+  },
+  {
+    "id": 12,
+    "category": "physics",
+    "rule": "Without an applied force, a rotating object cannot spontaneously reverse its direction of rotation. Multiple direction reversals in a sequence indicate physical impossibility.",
+    "related_violation": "direction_change"
+  },
+  {
+    "id": 13,
+    "category": "physics",
+    "rule": "Axis change in rotation \u2014 where the rotation direction reverses unexpectedly \u2014 violates Newton's first law of motion and marks the sequence as invalid.",
+    "related_violation": "direction_change"
+  },
+  {
+    "id": 14,
+    "category": "temporal",
+    "rule": "A complete motion sequence must contain all expected frames. Missing frames reduce temporal resolution and make motion analysis unreliable.",
+    "related_violation": "frame_completeness"
+  },
+  {
+    "id": 15,
+    "category": "physics",
+    "rule": "High angular acceleration between frames without a physical cause is a sign of synthetic generation error. Natural motion follows smooth acceleration profiles.",
+    "related_violation": "high_acceleration"
+  },
+  {
+    "id": 16,
+    "category": "physics",
+    "rule": "Jerk \u2014 the rate of change of acceleration \u2014 should be minimal in physically plausible rigid body motion. Excessive jerk signals an invalid sequence.",
+    "related_violation": "high_acceleration"
+  },
+  {
+    "id": 17,
+    "category": "general",
+    "rule": "A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.",
+    "related_violation": "general"
+  },
+  {
+    "id": 18,
+    "category": "general",
+    "rule": "Generative AI systems often produce visually plausible but physically inconsistent motion. Rule-based validation catches these violations that perceptual models miss.",
+    "related_violation": "general"
+  }
+]

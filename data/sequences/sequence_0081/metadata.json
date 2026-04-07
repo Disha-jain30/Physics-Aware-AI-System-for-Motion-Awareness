@@ -1,0 +1,16 @@
+{
+  "shape": "triangle",
+  "transformation": "shape_morph",
+  "angles": [
+    0.0,
+    12.99,
+    25.99,
+    38.98,
+    51.98,
+    64.97,
+    77.97
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

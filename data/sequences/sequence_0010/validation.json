@@ -1,0 +1,20 @@
+{
+  "final_label": "INVALID",
+  "violations": [
+    "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=128.88\u00b0]",
+    "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=128.88\u00b0 > threshold=50.0\u00b0]",
+    "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=29.1167\u00b0]",
+    "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=44.6155 > limit=25.0]",
+    "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=47.892\u00b0 > threshold=20.0\u00b0]"
+  ],
+  "violation_count": 5,
+  "ground_truth_label": "INVALID",
+  "correct_prediction": true,
+  "rules_fired": [
+    "Motion is not smooth",
+    "Sudden angle jump detected",
+    "Temporal discontinuity detected",
+    "Non-uniform speed detected",
+    "High angular acceleration detected"
+  ]
+}

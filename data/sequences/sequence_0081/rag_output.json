@@ -1,0 +1,31 @@
+{
+  "seq_id": "sequence_0081",
+  "final_label": "INVALID",
+  "violations": [
+    "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+  ],
+  "retrieved_rules": [
+    {
+      "id": 6,
+      "category": "geometry",
+      "rule": "Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.",
+      "related_violation": "shape_consistency",
+      "score": 0.5849
+    },
+    {
+      "id": 7,
+      "category": "geometry",
+      "rule": "Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.",
+      "related_violation": "shape_consistency",
+      "score": 0.5427
+    },
+    {
+      "id": 17,
+      "category": "general",
+      "rule": "A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.",
+      "related_violation": "general",
+      "score": 0.4548
+    }
+  ],
+  "context": "DETECTED VIOLATIONS:\n  - Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]\n\nRELEVANT PHYSICS RULES:\n  [1] Shape morphing mid-sequence violates geometric rigidity. The contour count and structure should remain stable across all frames.  (category: geometry, similarity: 0.585)\n  [2] Distortion of a shape, such as a square becoming rectangle-like or a triangle becoming skewed, signals a physically inconsistent transformation.  (category: geometry, similarity: 0.543)\n  [3] A physically valid transformation sequence satisfies: shape preservation, smooth rotation, constant angular velocity, and temporal continuity.  (category: general, similarity: 0.455)"
+}

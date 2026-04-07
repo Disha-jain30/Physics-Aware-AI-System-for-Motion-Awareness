@@ -1,0 +1,12 @@
+{
+  "final_label": "INVALID",
+  "violations": [
+    "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+  ],
+  "violation_count": 1,
+  "ground_truth_label": "INVALID",
+  "correct_prediction": true,
+  "rules_fired": [
+    "Shape inconsistency detected"
+  ]
+}

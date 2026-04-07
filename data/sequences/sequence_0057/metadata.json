@@ -1,0 +1,16 @@
+{
+  "shape": "square",
+  "transformation": "shape_morph",
+  "angles": [
+    0.0,
+    12.88,
+    25.76,
+    38.64,
+    51.52,
+    64.4,
+    77.28
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

@@ -1,0 +1,852 @@
+[
+  {
+    "seq_id": "sequence_0000",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0001",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0002",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0003",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0004",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0005",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0006",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0007",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0008",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0009",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0010",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 5,
+    "violations": [
+      "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=128.88\u00b0]",
+      "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=128.88\u00b0 > threshold=50.0\u00b0]",
+      "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=29.1167\u00b0]",
+      "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=44.6155 > limit=25.0]",
+      "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=47.892\u00b0 > threshold=20.0\u00b0]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0011",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0012",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0013",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0014",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0015",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0016",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0017",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0018",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0019",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0020",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0021",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0022",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0023",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0024",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0025",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0026",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0027",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0028",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0029",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0030",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0031",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0032",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0033",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0034",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0035",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0036",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0037",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0038",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0039",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 5,
+    "violations": [
+      "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=158.43\u00b0]",
+      "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=158.43\u00b0 > threshold=50.0\u00b0]",
+      "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=35.135\u00b0]",
+      "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=55.1392 > limit=25.0]",
+      "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=59.188\u00b0 > threshold=20.0\u00b0]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0040",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0041",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0042",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0043",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0044",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0045",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0046",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0047",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0048",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0049",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0050",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0051",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0052",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0053",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0054",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0055",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0056",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0057",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0058",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 5,
+    "violations": [
+      "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=140.64\u00b0]",
+      "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=140.64\u00b0 > threshold=50.0\u00b0]",
+      "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=32.5583\u00b0]",
+      "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=48.3356 > limit=25.0]",
+      "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=51.884\u00b0 > threshold=20.0\u00b0]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0059",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0060",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0061",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0062",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0063",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0064",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0065",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0066",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0067",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0068",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0069",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0070",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0071",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0072",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0073",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0074",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0075",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0076",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0077",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0078",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0079",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0080",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0081",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0082",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0083",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0084",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 5,
+    "violations": [
+      "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=132.56\u00b0]",
+      "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=132.56\u00b0 > threshold=50.0\u00b0]",
+      "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=31.18\u00b0]",
+      "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=45.3385 > limit=25.0]",
+      "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=48.67\u00b0 > threshold=20.0\u00b0]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0085",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0086",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0087",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0088",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0089",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0090",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0091",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0092",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0093",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0094",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0095",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0096",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0097",
+    "final_label": "INVALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": true,
+    "violation_count": 1,
+    "violations": [
+      "Shape inconsistency detected \u2014 object geometry changed mid-sequence.  [contour_std=None]"
+    ]
+  },
+  {
+    "seq_id": "sequence_0098",
+    "final_label": "VALID",
+    "ground_truth_label": "VALID",
+    "correct_prediction": true,
+    "violation_count": 0,
+    "violations": []
+  },
+  {
+    "seq_id": "sequence_0099",
+    "final_label": "VALID",
+    "ground_truth_label": "INVALID",
+    "correct_prediction": false,
+    "violation_count": 0,
+    "violations": []
+  }
+]

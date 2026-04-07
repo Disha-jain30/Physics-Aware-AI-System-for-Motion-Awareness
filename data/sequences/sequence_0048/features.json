@@ -1,0 +1,37 @@
+{
+  "angle_diffs": [
+    9.95,
+    9.95,
+    9.95,
+    9.95,
+    9.95,
+    9.95
+  ],
+  "max_jump": 9.95,
+  "avg_change": 9.95,
+  "is_smooth": true,
+  "std_dev": 0.0,
+  "is_uniform": true,
+  "shape_consistent": true,
+  "contour_std": 0.0,
+  "contour_count_per_frame": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "frames_complete": true,
+  "expected_frames": 7,
+  "actual_frames": 7,
+  "has_large_gap": false,
+  "direction_changes": 0,
+  "monotonic": true,
+  "acceleration": 0.0,
+  "frame_count": 7,
+  "shape": "square",
+  "transformation": "frame_discontinuity",
+  "ground_truth_label": "INVALID"
+}

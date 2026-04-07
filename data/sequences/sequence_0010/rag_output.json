@@ -1,0 +1,35 @@
+{
+  "seq_id": "sequence_0010",
+  "final_label": "INVALID",
+  "violations": [
+    "Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=128.88\u00b0]",
+    "Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=128.88\u00b0 > threshold=50.0\u00b0]",
+    "Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=29.1167\u00b0]",
+    "Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=44.6155 > limit=25.0]",
+    "High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=47.892\u00b0 > threshold=20.0\u00b0]"
+  ],
+  "retrieved_rules": [
+    {
+      "id": 1,
+      "category": "motion",
+      "rule": "Smooth motion requires gradual and consistent angle changes between frames. Sudden large increments violate physical continuity.",
+      "related_violation": "smooth_motion",
+      "score": 0.7012
+    },
+    {
+      "id": 3,
+      "category": "motion",
+      "rule": "A sudden angle jump greater than 50 degrees between two consecutive frames indicates an unrealistic discontinuity in rotation.",
+      "related_violation": "angle_jump",
+      "score": 0.6778
+    },
+    {
+      "id": 15,
+      "category": "physics",
+      "rule": "High angular acceleration between frames without a physical cause is a sign of synthetic generation error. Natural motion follows smooth acceleration profiles.",
+      "related_violation": "high_acceleration",
+      "score": 0.6572
+    }
+  ],
+  "context": "DETECTED VIOLATIONS:\n  - Motion is not smooth \u2014 sudden changes detected between frames.  [max_jump=128.88\u00b0]\n  - Sudden angle jump detected \u2014 rotation increment exceeds physical limit.  [max_jump=128.88\u00b0 > threshold=50.0\u00b0]\n  - Temporal discontinuity detected \u2014 large gap between consecutive frames.  [avg_change=29.1167\u00b0]\n  - Non-uniform speed detected \u2014 angular velocity is inconsistent.  [std_dev=44.6155 > limit=25.0]\n  - High angular acceleration detected \u2014 motion is physically jerky.  [acceleration=47.892\u00b0 > threshold=20.0\u00b0]\n\nRELEVANT PHYSICS RULES:\n  [1] Smooth motion requires gradual and consistent angle changes between frames. Sudden large increments violate physical continuity.  (category: motion, similarity: 0.701)\n  [2] A sudden angle jump greater than 50 degrees between two consecutive frames indicates an unrealistic discontinuity in rotation.  (category: motion, similarity: 0.678)\n  [3] High angular acceleration between frames without a physical cause is a sign of synthetic generation error. Natural motion follows smooth acceleration profiles.  (category: physics, similarity: 0.657)"
+}

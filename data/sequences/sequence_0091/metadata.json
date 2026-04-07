@@ -1,0 +1,16 @@
+{
+  "shape": "triangle",
+  "transformation": "axis_change",
+  "angles": [
+    0.0,
+    11.4,
+    22.8,
+    34.2,
+    45.6,
+    34.2,
+    22.8
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}

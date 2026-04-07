@@ -1,0 +1,10 @@
+Sequence  : sequence_0017
+Shape     : circle
+Transform : shape_morph
+Status    : INVALID
+
+Violations:
+  • Shape inconsistency detected — object geometry changed mid-sequence.  [contour_std=None]
+
+Explanation:
+[FALLBACK — LLM unavailable: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************GsoA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}] This motion sequence has been flagged as physically invalid by the rule engine. One or more detected violations — such as a sudden angle jump, shape inconsistency, or temporal discontinuity — contradict the principles of rigid-body motion. A physically valid sequence requires smooth, continuous rotation with shape preservation and no abrupt directional changes.

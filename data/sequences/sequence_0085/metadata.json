@@ -1,0 +1,16 @@
+{
+  "shape": "triangle",
+  "transformation": "frame_discontinuity",
+  "angles": [
+    0.0,
+    8.44,
+    16.87,
+    25.31,
+    33.74,
+    42.18,
+    50.62
+  ],
+  "label": "INVALID",
+  "num_frames": 7,
+  "seed": 42
+}
